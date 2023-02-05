@@ -3,8 +3,6 @@ import discord
 from discord.ext import commands
 
 intents=discord.Intents.all()
-
-
 bot = commands.Bot(command_prefix='$',intents=intents)
 
 @bot.event
@@ -32,6 +30,8 @@ async def a17(ctx):
 @bot.command()
 async def r(ctx,msg):
     await ctx.send(msg)
+
+
 
 
 bot.run('OTQzMzIzMTM2NzQzNjAwMTY4.GkelDG.2GL4sDJMElXQU5QEYAghd6p2T0LzaRwSZEgdDI')
